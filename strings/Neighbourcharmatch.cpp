@@ -16,7 +16,9 @@ int main()
     }
     if(i==2 && str[0]!=str[1]){
         
-        count++;
+        count=1;
+
+        break;
     }
     if(i==0){
         if(str[i]!=str[i+1]);
